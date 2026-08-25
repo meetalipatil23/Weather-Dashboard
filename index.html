@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Weather Dashboard</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="weather-card">
+  <h1>Weather Dashboard</h1>
+  <div class="search"><input id="city" placeholder="Enter city"><button onclick="showWeather()">Search</button></div>
+  <div id="weather" class="result">
+    <div class="icon">☀️</div><h2 id="name">Mumbai</h2><p id="condition">Sunny</p><strong id="temp">29°C</strong>
+    <div class="details"><span>💧 Humidity<br><b id="humidity">65%</b></span><span>💨 Wind<br><b id="wind">12 km/h</b></span><span>🌡️ Feels Like<br><b id="feel">31°C</b></span></div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
